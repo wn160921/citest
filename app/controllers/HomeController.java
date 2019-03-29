@@ -73,7 +73,7 @@ public class HomeController extends Controller {
     }
 
     /**
-     * Display the 'edit form' of a existing Computer.
+     * Display the 'edit form' of a existing Computer.ss
      *
      * @param id Id of the computer to edit
      */
