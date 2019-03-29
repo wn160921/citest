@@ -8,6 +8,14 @@ matrix:
       node_js:
         - 10.15.0
       before_install:
+        - "export DISPLAY=:99.0"
+        - "sh -e /etc/init.d/xvfb start"
         - cd web
       install:
         - yarn install
+
+#deploy:
+#  provider: script
+#  script: bash scripts/deploy.sh
+#  on:
+#    branch: master
