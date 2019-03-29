@@ -52,6 +52,7 @@ public class HomeController extends Controller {
      * Handle default path requests, redirect to computers list
      */
     public Result index() {
+
         return GO_HOME;
     }
 
