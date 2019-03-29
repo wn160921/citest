@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+apt install sshpass
 cd web
 ng build --prod
 cd dist
