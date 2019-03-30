@@ -1,13 +1,23 @@
 matrix:
   include:
     - language: scala
+      addons:
+        apt:
+          packages:
+            - sshpass
       scala:
         - 2.12.8
       jdk: oraclejdk8
-    - language: node_js
-      node_js:
-        - 10.15.0
-      before_install:
-        - cd web
-      install:
-        - yarn install
+#    - language: node_js
+#      node_js:
+#        - 10.15.0
+#      before_install:
+#        - cd web
+#      install:
+#        - yarn install
+
+#deploy:
+#  provider: script
+#  script: bash scripts/deploy.sh
+#  on:
+#    all_branches: true
