@@ -16,8 +16,8 @@ matrix:
 #      install:
 #        - yarn install
 
-deploy:
-  provider: script
-  script: bash scripts/deploy.sh
-  on:
-    all_branches: true
+#deploy:
+#  provider: script
+#  script: bash scripts/deploy.sh
+#  on:
+#    all_branches: true
